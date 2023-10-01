@@ -7,9 +7,9 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Tenorite', sans-serif;
   height: 100vh;
-  background: #fff; }
+  background: #EFE4D4; }
 
 h5, p, span, a, .btn, th, td, label {
   font-size: 13px; }
@@ -28,8 +28,8 @@ span {
 }
 
 .titleDiv{
-  border: 1px solid #2d7eda; 
-  background-color: #2d7eda;
+  border: 1px solid #B17946; 
+  background-color: #B17946;
   height: 40px;
   margin-bottom: 5px;
   text-align: center;
@@ -127,61 +127,68 @@ table thead {
   background: #fff;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
-  transition: .4s;
+  transition: .3s;
   font-weight: 500;
   padding: 12px 24px;
-  color: #fff; }
+  color: #EFE4D4; }
+
+.btn-seasonal {
+  background: #F13E44 !important;
+  border: 1px solid #fff !important;
+  color: #FFF !important;
+  font-weight: bold !important;
+}
 
 .btn-yellow {
-  background: #fabd03;
-  border: 1px solid #fabd03;
+  background: #49281A;
+  border: 1px solid #fff;
   color: #000; }
   .btn-yellow .fa {
     color: #000; }
 
 .btn-blue {
-  background: #45c2de;
-  border: 1px solid #45c2de; }
+  background: #000;
+  border: 1px solid #fff; }
 
 .btn-green {
-  background: #0EA61A;
-  border: 1px solid #0EA61A; }
+  background: #49281A;
+  border: 1px solid #fff; }
 
 .btn-1 {
-  background: #c64e2c;
-  border: 1px solid #c64e2c; }
+  background: #49281A;
+  border: 1px solid #49281A; }
 
 .btn-2 {
-  background: #048e03;
-  border: 1px solid #048e03; }
+  background: #000;
+  border: 1px solid #fff; }
 
 .btn-3 {
-  background: #a01b3d;
-  border: 1px solid #a01b3d; }
+  background: #000;
+  border: 1px solid #fff; }
 
 .btn-4 {
-  background: #048d9d;
-  border: 1px solid #048d9d; }
+  background: #000;
+  border: 1px solid #fff; }
 
 .btn-5 {
-  background: #e69c1b;
-  border: 1px solid #e69c1b; }
+  background: #000;
+  border: 1px solid #fff; }
 
 .btn-6 {
-  background: black;
-  border: 1px solid black; }
+  background: #556B2F;
+  border: 1px solid #fff; }
 
 .btn-7 {
-  background: #5638a9;
-  border: 1px solid #5638a9; }
+  background: #A9A454;
+  border: 1px solid #fff; }
 
 .btn-8 {
-  background: #444444;
-  border: 1px solid #444444; }
+  background: #49281A;
+  border: 1px solid #fff; }
 
 .btn:hover {
-  background: #45c2de;
-  border: 1px solid #45c2de;
+  background: #B17946;
+  border: 1px solid #fff;
   color: #fff; }
   .btn:hover .fa {
     color: #fff; }
@@ -191,11 +198,11 @@ table thead {
   width: 39px;
   padding: 9px; }
   .fa-btn .fa {
-    color: #0EA61A; }
+    color: #fff; }
 
 .fa-btn:hover {
-  background: #45c2de;
-  border: 1px solid #45c2de;
+  background: #B17946;
+  border: 1px solid #fff;
   color: #fff; }
   .fa-btn:hover .fa {
     color: #fff; }
@@ -532,9 +539,9 @@ table thead {
       overflow: hidden;
       font-weight: 500;
       font-size: 18px;
-      color:black;
-      background: #fabd03;
-      border: 1px solid #fabd03; }
+      color:#EFE4D4;
+      background: #B17946;
+      border: 1px solid #fff; }
     #mainSection .side-indicator .btn-7 {
         width: 100%;
         margin: 1.5px 0;
@@ -558,8 +565,8 @@ table thead {
     #mainSection .side-indicator .btn:hover,
     #mainSection .side-indicator .btn.active-btn {
       color: #fff;
-      background: #45c2de;
-      border: 1px solid #45c2de; }
+      background: #49281A;
+      border: 1px solid #fff; }
   #mainSection .item-area {
     position: relative;
     width: calc(100% - 15%); }
